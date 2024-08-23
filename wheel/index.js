@@ -222,7 +222,7 @@ function getImageURI(index) {
                 8,
                 9,
                 10,
-                11,
+                11
             ];
             result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
