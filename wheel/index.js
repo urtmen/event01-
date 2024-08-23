@@ -224,24 +224,10 @@ function getImageURI(index) {
 
         case "debuffs":
             const mapping = [
-                1,
-                2,
-                7,
+                8,
+                9,
                 10,
-                12,
-                13,
-                16,
-                18,
-                20,
-                21,
-                22,
-                23,
-                26,
-                25,
-                31,
-                44,
-                48,
-                49
+                11
             ];
             result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
