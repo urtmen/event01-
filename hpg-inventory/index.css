@@ -32,7 +32,7 @@ body {
 	float: left;
 	width: var(--cell-width);
 	height: var(--cell-width);
-	background-color: #ddd;
+	background-color: rgba(16,16,16,0.3);
 	border: 0px ridge #ddd;
 	margin-left: -0px;
 	box-sizing: border-box;
