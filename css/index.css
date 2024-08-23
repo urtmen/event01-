@@ -1,0 +1,52 @@
+.content {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.content > button {
+	position: absolute;
+	bottom: 0;
+}
+
+#description {
+	position: absolute;
+	width: 380px;
+	right: -200px;
+	background: linear-gradient(90deg, #141e30, transparent);
+	padding: 10px;
+	border-radius: 0.3rem;
+}
+
+.dialog {
+	margin: 0;
+	left: auto;
+}
+
+#description .charges,
+#description .limit,
+#description .type {
+	display: inline;
+}
+
+#description .charges span,
+#description .limit span,
+#description .type span {
+	font-weight: bold;
+	color: hsl(210, 81%, 75%);
+}
+
+#description .body {
+	margin-top: 0.5em;
+}
+
+#wheel-data-sets #scrooge + label {
+	margin-right: 32px;
+}
+
+#wheel-data-sets * {
+	vertical-align: baseline;
+}
+
+#volume-control {
+	vertical-align: middle;
+}
