@@ -1,7 +1,7 @@
 :root {
 	--cell-width: 72px;
 	--max-width: calc(var(--cell-width) * 7);
-	--cell-margin-left: -14px;
+	--cell-margin-left: 5px;
 }
 body {
 	background: transparent;
@@ -139,26 +139,26 @@ body:hover .add-cell {
 	width: 100%;
 }
 .BUFF .cell {
-	background-color: rgba(6,25,7,0.5);
+	background-color: rgba(6,25,7,0);
 	border-color: #a70000;
 }
 .DEBUFF .cell {
-	background-color: rgba(45,9,9,0.5);
+	background-color: rgba(45,9,9,0);
 	border-color: #a70000;
 }
 .TARGET_TRAP .cell {
-	background-color: rgba(27,71,73,0.5);
+	background-color: rgba(27,71,73,0);
 	border-color: #356b3e;
 }
 .NONTARGET_TRAP .cell {
-	background-color: rgba(28,43,58,0.5);
+	background-color: rgba(28,43,58,0);
 	border-color: #85935a;
 }
 .SPECIFIC_WHEEL_ROLL .cell {
-	background-color: rgba(39,23,53,0.5);
+	background-color: rgba(39,23,53,0);
 	border-color: #6c6699;
 }
 .FOOD .cell {
-	background-color: rgba(39,52,76,0.5);
+	background-color: rgba(39,52,76,0);
 	border-color: #467a3d;
 }
