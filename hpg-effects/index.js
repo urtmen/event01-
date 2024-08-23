@@ -6,11 +6,7 @@ let cells = [],
 const EFFECT_TYPES = {
     NONE: 'NONE',
     BUFF: 'BUFF',
-    DEBUFF: 'DEBUFF',
-    TARGET_TRAP: 'TARGET_TRAP',
-    NONTARGET_TRAP: 'NONTARGET_TRAP',
-    SPECIFIC_WHEEL_ROLL: 'SPECIFIC_WHEEL_ROLL',
-    FOOD: 'FOOD'
+    DEBUFF: 'DEBUFF',    
 };
 const items = [
     {
