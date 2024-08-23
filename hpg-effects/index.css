@@ -1,7 +1,7 @@
 :root {
 	--cell-width: 72px;
 	--max-width: calc(var(--cell-width) * 7);
-	--cell-margin-left: 0px;
+	--cell-margin-left: -14px;
 }
 body {
 	background: transparent;
@@ -38,7 +38,7 @@ body {
 	margin-left: calc(var(--cell-margin-left) * -1);
 }
 .cell {
-	margin-left: var(--cell-margin-left);
+	margin-left: 10px;
 	position: relative;
 	float: left;
 	width: var(--cell-width);
