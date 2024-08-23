@@ -151,12 +151,7 @@ class PresetWithoutSpecialRolls extends Preset {
         super(
             'Без спецроллов',
             [
-                'Чуйка на говно',
-                'Выбор Бумера',
-                'Выбор Зумера',
-                'Чат здесь закон',
-                'Я здесь закон',
-                'Never Lucky',
+                'Тест',
             ],
             isDefault
         );
