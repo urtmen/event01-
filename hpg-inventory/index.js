@@ -2,30 +2,7 @@
 
 let cells = [];
 const items = [
-    {
-        img: 'images/0002.png',
-        title: 'Набор для шитья'
-    },
-    {
-        img: 'images/0003.png',
-        title: 'Закопанная банка'
-    },
-    {
-        img: 'images/0004.png',
-        title: 'Схрон неизвестного'
-    },
-    {
-        img: 'images/0005.png',
-        title: 'Забытая вещь бродяги'
-    },
-    {
-        img: 'images/0006.png',
-        title: 'Максимальное доверие'
-    },
-    {
-        img: 'images/0007.png',
-        title: 'Отвар из ромашки'
-    },
+    
     {
         img: 'images/000.png',
         title: 'Пустая ячейка'
