@@ -19,6 +19,36 @@ const items = [
         type: EFFECT_TYPES.NONE,
     },
     {
+        img: 'images/0002.png',
+        title: 'Набор для шитья',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0003.png',
+        title: 'Закопанная банка',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0004.png',
+        title: 'Схрон неизвестного',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0005.png',
+        title: 'Забытая вещь бродяги',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0006.png',
+        title: 'Максимальное доверие',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
+        img: 'images/0007.png',
+        title: 'Отвар из ромашки',
+        type: EFFECT_TYPES.DEBUFF,
+    },
+    {
         img: 'images/001.png',
         title: 'Мистер Ржавчик',
         type: EFFECT_TYPES.DEBUFF,
