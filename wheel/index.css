@@ -316,7 +316,7 @@ button:disabled {
 #item-image img {
 	width: 90px;
 	height: 90px;
-	filter: drop-shadow(0 0 5px #080808);
+	filter: drop-shadow(0 0 2px #030303);
 }
 #btn-edit {
 	font-size: 2em;
