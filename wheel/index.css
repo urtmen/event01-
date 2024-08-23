@@ -6,7 +6,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background: #19153a;
+	background: #413301;
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
@@ -168,7 +168,7 @@ button:disabled {
 }
 .hero-background-overlay {
 	position: absolute;
-	background: linear-gradient(to bottom, rgba(49,52,61,0) 0%, rgba(25, 21, 58, 0.70) 50%, #19153a 100%);
+	background: linear-gradient(to bottom, rgba(49,52,61,0) 0%, rgba(0, 0, 0, 0.70) 50%, #000000 100%);
 	/*height: 150%;*/
 	height: 100%;
 	width: 100%;
@@ -315,7 +315,7 @@ button:disabled {
 #item-image img {
 	width: 90px;
 	height: 90px;
-	filter: drop-shadow(0 0 2px #aaa);
+	filter: drop-shadow(0 0 5px #080808);
 }
 #btn-edit {
 	font-size: 2em;
