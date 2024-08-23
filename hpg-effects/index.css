@@ -1,7 +1,7 @@
 :root {
 	--cell-width: 72px;
 	--max-width: calc(var(--cell-width) * 7);
-	--cell-margin-left: -14px;
+	--cell-margin-left: 0px;
 }
 body {
 	background: transparent;
