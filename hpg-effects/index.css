@@ -1,6 +1,6 @@
 :root {
 	--cell-width: 72px;
-	--max-width: calc(var(--cell-width) * 7);
+	--max-width: calc(var(--cell-width) * 8);
 	--cell-margin-left: 0px;
 }
 body {
