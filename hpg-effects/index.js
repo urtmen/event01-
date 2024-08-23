@@ -17,37 +17,7 @@ const items = [
         img: 'images/000.png',
         title: 'Пустая ячейка',
         type: EFFECT_TYPES.NONE,
-    },
-    {
-        img: 'images/0002.png',
-        title: 'Набор для шитья',
-        type: EFFECT_TYPES.DEBUFF,
-    },
-    {
-        img: 'images/0003.png',
-        title: 'Закопанная банка',
-        type: EFFECT_TYPES.DEBUFF,
-    },
-    {
-        img: 'images/0004.png',
-        title: 'Схрон неизвестного',
-        type: EFFECT_TYPES.DEBUFF,
-    },
-    {
-        img: 'images/0005.png',
-        title: 'Забытая вещь бродяги',
-        type: EFFECT_TYPES.DEBUFF,
-    },
-    {
-        img: 'images/0006.png',
-        title: 'Максимальное доверие',
-        type: EFFECT_TYPES.DEBUFF,
-    },
-    {
-        img: 'images/0007.png',
-        title: 'Отвар из ромашки',
-        type: EFFECT_TYPES.DEBUFF,
-    },
+    },    
     {
         img: 'images/001.png',
         title: 'Мистер Ржавчик',
@@ -55,33 +25,33 @@ const items = [
     },
     {
         img: 'images/002.png',
-        title: 'Облизанный ободок унитаза',
+        title: 'Набор для шитья',
         type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/003.png',
-        title: 'Ловушка Джокера',
-        type: EFFECT_TYPES.TARGET_TRAP,
+        title: 'Закопанная банка',
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/004.png',
-        title: 'Знаток выгоды',
-        type: EFFECT_TYPES.BUFF,
+        title: 'Схрон неизвестного',
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/005.png',
-        title: 'Стримбернар',
-        type: EFFECT_TYPES.BUFF,
+        title: 'Забытая вещь бродяги',
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/006.png',
-        title: 'В бухгалтерии все перепутали',
-        type: EFFECT_TYPES.NONTARGET_TRAP,
+        title: 'Максимальное доверие',
+        type: EFFECT_TYPES.DEBUFF,
     },
     {
         img: 'images/007.png',
-        title: 'Скупщик гречи',
-        type: EFFECT_TYPES.DEBUFF,
+        title: 'Отвар из ромашки',
+        type: EFFECT_TYPES.DEBUFF,       
     },
     {
         img: 'images/008.png',
