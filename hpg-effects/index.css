@@ -8,7 +8,7 @@ body {
 	padding: 20px 0;
 	font-family: Calibri, serif;
 	max-width: var(--max-width);
-	margin: 6 auto;
+	margin: 10 auto;
 	box-sizing: border-box;
 	position: relative;
 	color: #20262E;
