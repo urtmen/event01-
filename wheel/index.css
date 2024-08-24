@@ -330,7 +330,7 @@ button:disabled {
   font-size: 1.5em;
 
   & p {
-    line-height: 0.4em;
+    margin: 10px 0;
   }
 
   & span {
