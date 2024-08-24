@@ -45,6 +45,20 @@ const dataSets = {
         'Разбитое зеркало',
         'Колючая проволока',
         'Тупое говно тупого говна',
+    ],
+    damage: [
+        'Голова/глаза',
+        'Левая рука',
+        'Правая рука',
+        'Грудь',
+        'Левая нога',
+        'Правая нога',
+    ],
+    strangers: [
+        'Встреча 1 тест',
+        'Встреча 2 тест',
+        'Встреча 3 тест',
+        'Встреча 4 тест',
     ]
 };
 let currentDataSet = 'inventory',
@@ -175,6 +189,13 @@ class Presets {
             streamers: [
                 new PresetAll(),
             ],
+            damage: [
+                new PresetAll(),
+            ],
+            strangers: [
+                new PresetAll(),
+            ],
+            
         };
     }
 
