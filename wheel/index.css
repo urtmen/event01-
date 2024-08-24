@@ -339,6 +339,7 @@ button:disabled {
   width: 550px;
   padding-right: 15px;
   font-size: 1em;
+  letter-spacing: 2px;
   
   & p {
     margin: 10px 0;
