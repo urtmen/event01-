@@ -323,9 +323,9 @@ button:disabled {
 }
 
 @font-face {
-  // название шрифта(можно в свободной форме, лучше без пробелов) 
+  /* название шрифта(можно в свободной форме, лучше без пробелов) */
   font-family: "OswaldLight"; 
-  // адрес шрифта и тип 
+  /* адрес шрифта и тип */
   src: url("../wheel/Oswald-Light.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
