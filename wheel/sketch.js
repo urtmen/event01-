@@ -371,7 +371,7 @@ descElem.innerHTML = `
     ${descSets[data[key]]?.type ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
     ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
     ${descSets[data[key]]?.uses ? `<p><span class="uses">Количество использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
-    ${descSets[data[key]]?.lore ? <p><span class="lore">Описание:</span> ${descSets[data[key]]?.lore}</p> : ''}
+    ${descSets[data[key]]?.lore ? `<p><span class="lore">Описание:</span> ${descSets[data[key]]?.lore}</p>` : ''}
     ${descSets[data[key]]?.desc || ''}`
                 }
             }
