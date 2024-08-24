@@ -1,6 +1,23 @@
 /*
  * Copyright (c) 2020. shtrih
  */
+const descElem = document.getElementById('description')
+const descSets = {
+  'Четырехлистный клевер' : {
+    type:     'Бафф',
+    strength:   4, //Если не используется - указать 0
+    uses:    0, //Если не используется - указать 0
+    desc:     'Ты счастливчик! Сделай реролл колеса, состоящий только из баффов.'
+    //newprop: 'тест нового свойства' // вот так добавляем новое свойство в объект
+  },
+  'Отвар из ромашки' : {
+    type:     'Бафф',
+    strength:   0, //Если не используется -указать 0
+    uses:    1, //Если не используется - указать 0
+    lore:     'Ты остановился на привал и разогрел на кострел заранее заготовленный отвар, чтобы успокоить свои нервы',
+    desc:     'Все последующие игры проходи на самой легкой сложности. Это событие будет работать до того момента, пока не будет открыты все гексы в секторе. Если игрок перепроходит сектор по новой, то нужно учитывать прохождение каждого гекса в секторе. Наличие этого баффа и «Платиновая фишка» обнуляют друг друга.'
+  },
+}
 
 function wheelSketch(_p5) {
     const radius = 160,
@@ -346,6 +363,16 @@ function wheelSketch(_p5) {
                     selectedKey = key;
 
                     _p5.onSelectItem(data, selectedKey);
+// Если понадобится добавить новое совойство, то копируем строку ниже и вставляем её перед строчкой ${descSets[data[key]]?.desc  ''}` или в нужном месте
+// ${descSets[data[key]]?.newprop ? <p><span>Тип:</span> ${descSets[data[key]]?.newprop}</p> : ''}
+// newprop - это название нового свойства. В объект descSets необходимо добавить такое же свойство
+// Текст внутри "span" также заменяем на свой
+descElem.innerHTML = `
+    ${descSets[data[key]]?.type ? `<p><span class="type">Тип:</span> ${descSets[data[key]]?.type}</p>` : ''}
+    ${descSets[data[key]]?.strength ? `<p><span class="strength">Прочность:</span> ${descSets[data[key]]?.strength}</p>` : ''}
+    ${descSets[data[key]]?.uses ? `<p><span class="uses">Количество использований:</span> ${descSets[data[key]]?.uses}</p>` : ''}
+    ${descSets[data[key]]?.lore ? <p><span class="lore">Описание:</span> ${descSets[data[key]]?.lore}</p> : ''}
+    ${descSets[data[key]]?.desc || ''}`
                 }
             }
             // line(0, textAscent(), width, textAscent());
