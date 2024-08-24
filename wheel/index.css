@@ -321,3 +321,25 @@ button:disabled {
 #btn-edit {
 	font-size: 2em;
 }
+.content {
+  max-width: 13500px !important;
+}
+#description {
+  width: 550px;
+  padding-right: 15px;
+  font-size: 1.5em;
+
+  & p {
+    line-height: 0.4em;
+  }
+
+  & span {
+    font-weight: 800;
+
+    &.type {color: #d4f0f9;}
+    &.strength {color: #c96e12;}
+    &.uses {color: #ffbc00;}
+    &.lore {color: #a0a0a0;}
+/*Скопировать строчку выше для добавления цвета новому свойству и указать его имя о аналогии*/
+  }
+}
