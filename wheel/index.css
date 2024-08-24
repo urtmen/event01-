@@ -324,9 +324,9 @@ button:disabled {
 
 @font-face {
   /* название шрифта(можно в свободной форме, лучше без пробелов) */
-  font-family: "OswaldLight"; 
+  font-family: "vksansregular"; 
   /* адрес шрифта и тип */
-  src: url("../wheel/Oswald-Light.ttf") format("truetype"); 
+  src: url("../wheel/VKSansDisplay-Regular.ttf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 }
@@ -335,11 +335,11 @@ button:disabled {
   max-width: 1400px !important;
 }
 #description {
-  font-family: "OswaldLight";
+  font-family: "vksansregular";
   width: 550px;
   padding-right: 15px;
   font-size: 1em;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   
   & p {
     margin: 10px 0;
