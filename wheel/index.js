@@ -33,12 +33,12 @@ const dataSets = {
         'Ребро!',
     ],
     streamers: [
-        'MistaFaker',
-        'Lasqa',
-        'Liz0n',
+        'URTVAGAMES',
+        'Faley016',
+        'fullkamen',
         'Melharucos',
-        'UselessMouth',
-        'UncleBjorn',
+        'PlayWithSERCH',
+        'Кто-то еще',
     ],
     debuffs: [
         'Ночной воришка',
