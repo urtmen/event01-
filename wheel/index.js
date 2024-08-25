@@ -36,7 +36,7 @@ const dataSets = {
         'URTVAGAMES',
         'Faley016',
         'fullkamen',
-        'Melharucos',
+        'daetovika',
         'PlayWithSERCH',
         'Кто-то еще',
     ],
