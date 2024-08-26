@@ -265,9 +265,9 @@ function getImageURI(index) {
             break;
 
        case "damage":
-            result = '../images/damage_legs.png';
+            result = '../images/damage_legs-20.png';
             if (index === 1) {
-                result = '../images/damage_hands.png';
+                result = '../images/damage_hands-20.png';
             }
             if (index === 10) {
                 result = '../images/damage_head.png';
