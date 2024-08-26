@@ -267,12 +267,15 @@ function getImageURI(index) {
             break;
 
        case "damage":
-            result = '../images/coin-obverse-20.png';
+            result = '../images/damage_hands.png';
             if (index === 1) {
-                result = '../images/coin-reverse-20.png';
+                result = '../images/damage_legs.png';
             }
             if (index === 10) {
-                result = '../images/coin-gurt.png';
+                result = '../images/damage_head.png';
+            }
+            if (index === 11) {
+                result = '../images/damage_miss.png';
             }
             break;     
 
